@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="love-body">
+
+    <div class="card">
+        <img src="love.jpg">
+        <h2>Will you be my Valentine? 🥺💍</h2>
+
+        <div class="buttons">
+            <button class="yes" onclick="goYes()"><b>Yeah ♥️</b></button>
+            <button class="no" id="noBtn"><b>Nope 💔</b></button>
+        </div>
+    </div>
+
+    <script>
+        function goYes() {
+            window.location.href = "yes.html";
+        }
+
+        const noBtn = document.getElementById("noBtn");
+        noBtn.addEventListener("mouseover", () => {
+            noBtn.style.position = "absolute";
+            noBtn.style.left = Math.random() * 80 + "%";
+            noBtn.style.top = Math.random() * 80 + "%";
+        });
+    </script>
+
+</body>
+</html>

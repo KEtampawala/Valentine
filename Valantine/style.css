@@ -1,0 +1,102 @@
+/* LOGIN PAGE */
+.login-body {
+    background: url(b.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Rustic Roadway', cursive; /* added fallback */
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    margin-bottom: 50px;
+}
+
+.login-box input {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.keypad button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+
+/* VALENTINE PAGE */
+.love-body {
+    background: url(b2.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    width: 500px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card h2 {
+    font-family: 'Rustic Roadway', cursive; /* added fallback */
+    font-size: 25px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    background: #f5f5f0;
+}
+
+.yes {
+    background: #fbe7f0;
+}
+
+.no {
+    background: #fbe7f0;
+}
